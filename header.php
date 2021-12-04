@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
     <?php wp_head(); ?>
 </head>
 
@@ -47,13 +45,12 @@
         </div>
     </nav>
     <!-- Page Header-->
-    <header class="masthead" style="background-image: url('wp-content/themes/monito/assets/images/home-bg.jpg')">
+    <header class="masthead">
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="site-heading">
                         <h1><?php the_title(); ?></h1>
-                        <span class="subheading"></span>
                     </div>
                 </div>
             </div>
