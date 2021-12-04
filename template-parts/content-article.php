@@ -5,11 +5,7 @@
     ?></p>
 
 
-    <p><?php
-        the_tags();
-    ?></p>
 
-    <?php
-    the_content();
-    ?>
+
+    
 </div>
